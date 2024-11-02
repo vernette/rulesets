@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "spotify.com",
+        "www.spotify.com",
+        "accounts.spotify.com"
+      ],
+      "domain_suffix": [
+        "dell.com",
+        "dellcdn.com",
+        "redis.io",
+        "jetbrains.com",
+        "habr.com",
+        "remove.bg",
+        "intel.com",
+        "swagger.io",
+        "4pda.to"
+      ]
+    }
+  ]
+}

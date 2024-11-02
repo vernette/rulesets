@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "youtube.com",
+        "yting.com",
+        "ggpht.com",
+        "ytimg.com",
+        "youtu.be",
+        "googlevideo.com"
+      ]
+    }
+  ]
+}
