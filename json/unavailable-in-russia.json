@@ -2,7 +2,12 @@
 	"version": 1,
 	"rules": [
 		{
-			"domain": ["spotify.com", "www.spotify.com", "accounts.spotify.com"],
+			"domain": [
+				"spotify.com",
+				"www.spotify.com",
+				"accounts.spotify.com",
+				"geolocation.onetrust.com"
+			],
 			"domain_suffix": [
 				"dell.com",
 				"dellcdn.com",
