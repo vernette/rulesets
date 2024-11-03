@@ -1,13 +1,14 @@
 {
-  "version": 1,
-  "rules": [
-    {
-      "domain_suffix": [
-        "nflxvideo.net",
-        "nflxext.com",
-        "fast.com",
-        "nflximg.net"
-      ]
-    }
-  ]
+	"version": 1,
+	"rules": [
+		{
+			"domain_suffix": [
+				"nflxvideo.net",
+				"nflxext.com",
+				"fast.com",
+				"nflximg.net",
+				"netflix.com"
+			]
+		}
+	]
 }
