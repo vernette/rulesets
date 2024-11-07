@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "habrastorage.org",
+        "archlinux.org",
+        "kde.org",
+        "nextcloud.com",
+        "hetzner.com"
+      ]
+    }
+  ]
+}
