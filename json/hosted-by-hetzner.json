@@ -1,14 +1,20 @@
 {
-  "version": 1,
-  "rules": [
-    {
-      "domain_suffix": [
-        "habrastorage.org",
-        "archlinux.org",
-        "kde.org",
-        "nextcloud.com",
-        "hetzner.com"
-      ]
-    }
-  ]
+	"version": 1,
+	"rules": [
+		{
+			"domain_suffix": [
+				"habrastorage.org",
+				"archlinux.org",
+				"kde.org",
+				"nextcloud.com",
+				"hetzner.com",
+				"hetzner.cloud",
+        "w3techs.com",
+        "filezilla-project.org",
+        "beeper.com",
+        "wetdry.world",
+        "tilde.institute"
+			]
+		}
+	]
 }
