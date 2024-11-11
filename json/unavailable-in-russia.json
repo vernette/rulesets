@@ -1,32 +1,34 @@
 {
-	"version": 1,
-	"rules": [
-		{
-			"domain": [
-				"spotify.com",
-				"www.spotify.com",
-				"accounts.spotify.com",
-				"geolocation.onetrust.com"
-			],
-			"domain_suffix": [
-				"dell.com",
-				"dellcdn.com",
-				"redis.io",
-				"jetbrains.com",
-				"habr.com",
-				"remove.bg",
-				"intel.com",
-				"swagger.io",
-				"4pda.to",
-				"elastic.co",
-				"grafana.com",
-				"hashicorp.com",
-				"terraform.io",
-				"mongodb.com",
-				"tailscale.com",
-				"themoviedb.org",
-				"xerox.com"
-			]
-		}
-	]
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "spotify.com",
+        "www.spotify.com",
+        "accounts.spotify.com",
+        "geolocation.onetrust.com",
+        "gemini.google.com"
+      ],
+      "domain_suffix": [
+        "dell.com",
+        "dellcdn.com",
+        "redis.io",
+        "jetbrains.com",
+        "habr.com",
+        "remove.bg",
+        "intel.com",
+        "swagger.io",
+        "4pda.to",
+        "elastic.co",
+        "grafana.com",
+        "hashicorp.com",
+        "terraform.io",
+        "mongodb.com",
+        "tailscale.com",
+        "themoviedb.org",
+        "xerox.com",
+        "claude.ai"
+      ]
+    }
+  ]
 }
