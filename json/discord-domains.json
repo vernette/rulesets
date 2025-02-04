@@ -7,7 +7,8 @@
 				"discord.gg",
 				"discord.media",
 				"discordapp.com",
-				"discordapp.net"
+				"discordapp.net",
+        "discord-attachments-uploads-prd.storage.googleapis.com"
 			]
 		}
 	]
