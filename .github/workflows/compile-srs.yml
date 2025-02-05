@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - "v2/json/*.json"
+  workflow_dispatch:
 
 permissions:
   contents: write
