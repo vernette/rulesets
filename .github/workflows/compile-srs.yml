@@ -1,0 +1,35 @@
+name: Compile SRS rule-sets from JSON
+on:
+  push:
+    paths:
+      - "v2/json/*.json"
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install sing-box
+        run: |
+          sudo apt-get update 
+          sudo apt-get install -y wget jq parallel
+          bash <(curl -fsSL https://sing-box.app/deb-install.sh)
+
+      - name: Create output directory
+        run: mkdir -p v2/srs
+
+      - name: Compile JSON to SRS
+        run: |
+          for file in v2/json/*.json; do
+            filename=$(basename "$file" .json)
+            sing-box rule-set compile "$file" -o "v2/srs/${filename}.srs"
+          done
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add v2/srs/*.srs
+          git commit -m "chore: auto-compile rule-sets from JSON to SRS files" || exit 0
+          git push
