@@ -4,6 +4,9 @@ on:
     paths:
       - "v2/json/*.json"
 
+permissions:
+  contents: write
+
 jobs:
   compile:
     runs-on: ubuntu-latest
