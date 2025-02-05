@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": ["x.com", "twimg.com", "twitter.com", "t.co"]
+    }
+  ]
+}
