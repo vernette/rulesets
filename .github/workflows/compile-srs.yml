@@ -16,8 +16,6 @@ jobs:
 
       - name: Install sing-box
         run: |
-          sudo apt-get update 
-          sudo apt-get install -y wget jq parallel
           bash <(curl -fsSL https://sing-box.app/deb-install.sh)
 
       - name: Create output directory
@@ -25,7 +23,9 @@ jobs:
 
       - name: Compile JSON to SRS
         run: |
-          for file in v2/json/*.json; do
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- "v2/json/*.json")
+
+          for file in $CHANGED_FILES; do
             filename=$(basename "$file" .json)
             sing-box rule-set compile "$file" -o "v2/srs/${filename}.srs"
           done
