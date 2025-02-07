@@ -1,15 +1,15 @@
 {
-	"version": 2,
-	"rules": [
-		{
-			"domain_suffix": [
-				"discord.com",
-				"discord.gg",
-				"discord.media",
-				"discordapp.com",
-				"discordapp.net",
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "discord.com",
+        "discord.gg",
+        "discord.media",
+        "discordapp.com",
+        "discordapp.net",
         "discord-attachments-uploads-prd.storage.googleapis.com"
-			]
-		}
-	]
+      ]
+    }
+  ]
 }
