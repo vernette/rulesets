@@ -19,11 +19,11 @@ jobs:
           bash <(curl -fsSL https://sing-box.app/deb-install.sh)
 
       - name: Create output directory
-        run: mkdir -p v2/srs
+        run: mkdir -p srs
 
       - name: Compile JSON to SRS
         run: |
-          CHANGED_FILES=$(git diff --name-only HEAD^1 HEAD -- "v2/json/*.json" || git ls-files "v2/json/*.json")
+          CHANGED_FILES=$(git diff --name-only HEAD^1 HEAD -- "json/*.json" || git ls-files "json/*.json")
           for file in $CHANGED_FILES; do
             filename=$(basename "$file" .json)
             sing-box rule-set compile "$file" -o "srs/${filename}.srs"
@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add v2/srs/*.srs
+          git add srs/*.srs
           git commit -m "chore: auto-compile rule-sets from JSON to SRS files" || exit 0
           git push
