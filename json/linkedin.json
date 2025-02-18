@@ -1,8 +1,8 @@
 {
-	"version": 1,
-	"rules": [
-		{
-			"domain_suffix": ["linkedin.com", "licdn.com"]
-		}
-	]
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": ["linkedin.com", "licdn.com"]
+    }
+  ]
 }
