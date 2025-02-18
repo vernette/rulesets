@@ -23,8 +23,7 @@ jobs:
 
       - name: Compile JSON to SRS
         run: |
-          CHANGED_FILES=$(git diff --name-only HEAD^1 HEAD -- "json/*.json" || git ls-files "json/*.json")
-          for file in $CHANGED_FILES; do
+          for file in json/*.json; do
             filename=$(basename "$file" .json)
             sing-box rule-set compile "$file" -o "srs/${filename}.srs"
           done
