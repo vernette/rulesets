@@ -2,7 +2,7 @@ name: Compile SRS rule-sets from JSON
 on:
   push:
     paths:
-      - "v2/json/*.json"
+      - "json/*.json"
   workflow_dispatch:
 
 permissions:
