@@ -15,7 +15,7 @@ sing-box rule-sets for various services.
 
 ## Examples
 
-### sing-box < 1.10.x (v1)
+### sing-box >= 1.10.x
 
 ```json
 "route": {
@@ -25,21 +25,6 @@ sing-box rule-sets for various services.
       "type": "remote",
       "format": "binary",
       "url": "https://github.com/vernette/rulesets/raw/master/srs/discord-full.srs"
-    }
-  ]
-}
-```
-
-### sing-box >= 1.10.x (v2)
-
-```json
-"route": {
-  "rule_set": [
-    {
-      "tag": "discord",
-      "type": "remote",
-      "format": "binary",
-      "url": "https://github.com/vernette/rulesets/raw/master/v2/srs/discord-full.srs"
     }
   ]
 }
