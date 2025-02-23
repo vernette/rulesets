@@ -1,4 +1,4 @@
-name: Update Domain List
+name: Sync unavailable-in-russia domains
 
 on:
   schedule:
