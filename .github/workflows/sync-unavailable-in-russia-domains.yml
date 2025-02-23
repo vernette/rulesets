@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,10 +29,16 @@ jobs:
         run: python update_russia_unavailable.py
 
       - name: Commit and push if changes
-        if: steps.check-remote.outputs.changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add json/unavailable-in-russia.json .last_processed_commit
+          git add json/unavailable-in-russia.json
           git commit -m "chore: sync unavailable-in-russia domains" || exit 0
-          git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push
+
+      - name: Trigger compile workflow
+        if: success()
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Compile SRS rule-sets from JSON
+          token: ${{ secrets.GITHUB_TOKEN }}
