@@ -25,6 +25,16 @@ EXCLUDED_DOMAINS: set[str] = {
 }
 
 
+def read_json(json_file: str) -> dict:
+    with open(json_file, 'r') as f:
+        return json.load(f)
+
+
+def save_json(json_file: str, data: dict) -> None:
+    with open(json_file, 'w') as f:
+        json.dump(data, f, indent=2)
+
+
 def get_no_russia_hosts(url: str) -> set[str]:
     response = requests.get(url)
     hosts_content = response.text
@@ -36,11 +46,6 @@ def get_no_russia_hosts(url: str) -> set[str]:
     }
 
     return domains
-
-
-def read_json(json_file: str) -> dict:
-    with open(json_file, 'r') as f:
-        return json.load(f)
 
 
 def get_json_domains(json_file: str) -> set[str]:
@@ -72,11 +77,6 @@ def update_domain_suffix_list(data: dict, new_domain_suffixes: set[str]) -> None
     domain_suffix_list: list[str] = data['rules'][0]['domain_suffix']
     domain_suffix_list.extend(new_domain_suffixes)
     domain_suffix_list.sort()
-
-
-def save_json(json_file: str, data: dict) -> None:
-    with open(json_file, 'w') as f:
-        json.dump(data, f, indent=2)
 
 
 def update_json(json_file: str, no_russia_hosts: set[str]) -> None:
