@@ -38,9 +38,13 @@ def get_no_russia_hosts(url: str) -> set[str]:
     return domains
 
 
-def get_json_domains(json_file: str) -> set[str]:
+def read_json(json_file: str) -> dict:
     with open(json_file, 'r') as f:
-        data: dict = json.load(f)
+        return json.load(f)
+
+
+def get_json_domains(json_file: str) -> set[str]:
+    data: dict = read_json(json_file)
     rules: dict = data['rules'][0]
     return set(rules['domain']) | set(rules['domain_suffix'])
 
@@ -80,9 +84,7 @@ def update_json(json_file: str, no_russia_hosts: set[str]) -> None:
     new_domain_suffixes: set[str] = get_new_domain_suffixes(no_russia_hosts, json_domains)
 
     if new_domain_suffixes:
-        with open(json_file, 'r') as f:
-            data: dict = json.load(f)
-        
+        data: dict = read_json(json_file)
         update_domain_suffix_list(data, new_domain_suffixes)
         save_json(json_file, data)
 
