@@ -66,7 +66,7 @@ def get_new_domain_suffixes(no_russia_hosts: set[str], json_domains: set[str]) -
 
 def update_domain_suffix_list(data: dict, new_domain_suffixes: set[str]) -> None:
     domain_suffix_list: list[str] = data['rules'][0]['domain_suffix']
-    domain_suffix_list.extend(sorted(new_domain_suffixes))
+    domain_suffix_list.extend(new_domain_suffixes)
     domain_suffix_list.sort()
 
 
