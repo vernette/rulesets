@@ -83,15 +83,14 @@ def update_json(json_file: str, no_russia_hosts: set[str]) -> None:
     json_domains: set[str] = get_json_domains(json_file)
     new_domain_suffixes: set[str] = get_new_domain_suffixes(no_russia_hosts, json_domains)
 
-    if new_domain_suffixes:
-        data: dict = read_json(json_file)
-        update_domain_suffix_list(data, new_domain_suffixes)
-        save_json(json_file, data)
-
-        print(f'Added {len(new_domain_suffixes)} new domains')
+    if not new_domain_suffixes:
+        print('No new domains found')
         return
-    
-    print('No new domains found')
+
+    data: dict = read_json(json_file)
+    update_domain_suffix_list(data, new_domain_suffixes)
+    save_json(json_file, data)
+    print(f'Added {len(new_domain_suffixes)} new domains')
 
 
 def main() -> None:
