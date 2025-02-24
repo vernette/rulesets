@@ -37,11 +37,10 @@ def save_json(json_file: str, data: dict) -> None:
 
 def get_no_russia_hosts(url: str) -> set[str]:
     response = requests.get(url)
-    hosts_content = response.text
 
     domains: set[str] = {
         line
-        for line in hosts_content.splitlines()
+        for line in response.text.splitlines()
         if line and '#' not in line
     }
 
@@ -49,8 +48,7 @@ def get_no_russia_hosts(url: str) -> set[str]:
 
 
 def get_json_domains(json_file: str) -> set[str]:
-    data: dict = read_json(json_file)
-    rules: dict = data['rules'][0]
+    rules: dict = read_json(json_file)['rules'][0]
     return set(rules['domain']) | set(rules['domain_suffix'])
 
 
