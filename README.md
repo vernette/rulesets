@@ -13,9 +13,7 @@ sing-box rule-sets for various services.
 - RKN (sites blocked by RKN)
 - Unavailable in Russia (sites that blocked users from Russia, automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts))
 
-## Examples
-
-### sing-box >= 1.10.x
+## Example
 
 ```json
 "route": {
