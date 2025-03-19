@@ -22,6 +22,7 @@ EXCLUDED_DOMAINS: set[str] = {
     'oaistatic.com',
     'oaiusercontent.com',
     'epicgames.com',
+    'microsoft.com'
 }
 
 
