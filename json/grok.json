@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["grok.x.com", "api.x.com"],
+      "domain_suffix": ["grok.com", "x.ai"]
+    }
+  ]
+}
