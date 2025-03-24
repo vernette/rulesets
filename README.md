@@ -7,6 +7,7 @@ sing-box rule-sets for various services.
 - LinkedIn
 - Netflix
 - OpenAI (ChatGPT)
+- Grok
 - YouTube
 - X (Twitter)
 - TikTok
