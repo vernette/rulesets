@@ -2,7 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": ["rezka.ag"]
+      "domain_suffix": ["rezka.ag", "hdrezka.ac"]
     }
   ]
 }
