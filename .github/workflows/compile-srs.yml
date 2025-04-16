@@ -1,4 +1,4 @@
-name: Compile SRS rule-sets from JSON
+name: Compile Domain Lists from JSON
 on:
   push:
     paths:
@@ -14,12 +14,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Create output directories
+        run: |
+          mkdir -p raw
+          mkdir -p srs
+
+      - name: Run JSON to TXT conversion
+        run: python convert_json_to_txt.py
+
       - name: Install sing-box
         run: |
           bash <(curl -fsSL https://sing-box.app/deb-install.sh)
-
-      - name: Create output directory
-        run: mkdir -p srs
 
       - name: Compile JSON to SRS
         run: |
@@ -32,6 +42,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add srs/*.srs
-          git commit -m "chore: auto-compile rule-sets from JSON to SRS files" || exit 0
+          git add raw/*.txt srs/*.srs
+          git commit -m "chore: auto-compile domain lists and rule-sets" || exit 0
           git push
