@@ -152,6 +152,7 @@ google.dev
 gov.ua
 grafana.com
 grammarly.com
+graylog.org
 grazie.ai
 groq.com
 groupon.com
@@ -332,6 +333,7 @@ slideshare.net
 smartbear.co
 smartbear.com
 snort.org
+snyk.io
 soapui.org
 solarwinds.com
 sophos.com
