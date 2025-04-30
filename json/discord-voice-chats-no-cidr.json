@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "network": "udp",
+      "port_range": "50000:50099"
+    }
+  ]
+}
