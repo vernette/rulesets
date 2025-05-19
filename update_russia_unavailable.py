@@ -23,7 +23,8 @@ EXCLUDED_DOMAINS: set[str] = {
     'oaiusercontent.com',
     'epicgames.com',
     'microsoft.com',
-    'x.ai'
+    'x.ai',
+    'imgur.com'
 }
 
 
