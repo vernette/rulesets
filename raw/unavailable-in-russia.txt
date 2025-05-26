@@ -22,6 +22,7 @@ angryemailtranslator.com
 annimon.com
 anthropic.com
 anythingllm.com
+api.imgur.com
 apiary.io
 aplawrence.com
 apple.com
