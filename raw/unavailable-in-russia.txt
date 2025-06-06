@@ -282,6 +282,7 @@ photonengine.com
 pimeyes.com
 pinata.cloud
 pixabay.com
+pkgs.tailscale.com
 plugin-alliance.com
 pluralsight.com
 pny.com
@@ -365,7 +366,6 @@ syncfusion.com
 sysdig.com
 systemtek.co.uk
 tableau.com
-tailscale.com
 target.com
 te.com
 teamviewer.com
