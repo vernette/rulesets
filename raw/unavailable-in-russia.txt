@@ -20,6 +20,7 @@ amd.com
 analog.com
 angryemailtranslator.com
 annimon.com
+ansys.com
 anthropic.com
 anythingllm.com
 api.imgur.com
@@ -182,6 +183,7 @@ indeed.com
 infineon.com
 informit.com
 insanelymac.com
+insideevs.com
 install.launcher.omniverse.nvidia.com
 intel.com
 intel.se
@@ -189,6 +191,7 @@ intellij.net
 intellipaat.com
 iperf3serverlist.net
 jabra.com
+jetbrains.ai
 jetbrains.com
 joesandbox.com
 joyreactor.cc
@@ -314,6 +317,7 @@ ruckuswireless.com
 salesforce.com
 samsclub.com
 sap.com
+sbom.sh
 schaeffler.com
 schenker-tech.de
 screamingfrog.co.uk
@@ -386,6 +390,7 @@ tommy.com
 tria.ge
 trionworlds.com
 truthsocial.com
+tvn24.pl
 ubi.com
 ubnt.com
 ultimaker.com
@@ -410,6 +415,7 @@ wakanim.tv
 walletconnect.com
 walmart.com
 watchguard.com
+wdfiles.com
 we.tl
 weather.com
 webex.com
