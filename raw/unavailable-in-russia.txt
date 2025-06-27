@@ -153,6 +153,7 @@ gitlab.com
 glpals.com
 google.dev
 gov.ua
+gql.twitch.tv
 grafana.com
 grammarly.com
 graylog.org
@@ -400,6 +401,7 @@ ultimaker.com
 ultraedit.com
 undress.cc
 unscreen.com
+usher.ttvnw.net
 vagrantcloud.com
 vaio.com
 vans.com
