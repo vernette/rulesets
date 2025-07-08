@@ -63,6 +63,7 @@ certifytheweb.com
 cesium.com
 chaos.com
 chatfuel.com
+cici.com
 cisco.com
 cisecurity.org
 citrix.com
@@ -143,6 +144,7 @@ gambody.com
 game.co.uk
 gamestop.com
 gaming.amazon.com
+gateway.pinata.cloud
 gemini.google.com
 genspark.ai
 geolocation.onetrust.com
