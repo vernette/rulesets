@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": ["api.individual.githubcopilot.com", "api.github.com"]
+    }
+  ]
+}
