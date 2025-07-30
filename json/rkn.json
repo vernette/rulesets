@@ -2,6 +2,11 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "speedtest.net",
+        "www.speedtest.net",
+        "mapi.speedtest.net"
+      ],
       "domain_suffix": [
         "0-nds.ru",
         "00112.ru",
