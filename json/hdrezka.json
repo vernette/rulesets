@@ -2,7 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": ["rezka.ag", "hdrezka.ac"]
+      "domain_suffix": ["rezka.ag", "hdrezka.ac", "stream.voidboost.cc"]
     }
   ]
 }
