@@ -226,6 +226,7 @@ lowes.com
 m3u.in
 macpaw.com
 macvendors.com
+malw.link
 malwarebytes.com
 malwarebytes.org
 matrix.org
