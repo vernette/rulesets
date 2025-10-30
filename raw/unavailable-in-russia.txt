@@ -2,7 +2,6 @@
 4pda.to
 6pm.com
 8chan.moe
-accounts.spotify.com
 activestate.com
 acurapartswarehouse.com
 adafruit.com
@@ -228,7 +227,6 @@ linuxiac.com
 lipstickalley.com
 liquidsky.com
 llamameta.net
-login.app.spotify.com
 logo.com
 lookerstudio.google.com
 lowes.com
@@ -375,7 +373,6 @@ sora.com
 spiceworks.com
 splunk.com
 splunkcloud.com
-spotify.com
 squadbustersgame.com
 st.com
 stalker2.com
@@ -455,7 +452,6 @@ windsurf.com
 wk.cz
 wonderclub.com
 wunderground.com
-www.spotify.com
 www3.corsair.com
 x.ai
 xbox.com
