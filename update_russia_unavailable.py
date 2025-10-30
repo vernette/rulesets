@@ -24,7 +24,8 @@ EXCLUDED_DOMAINS: set[str] = {
     'epicgames.com',
     'microsoft.com',
     'x.ai',
-    'imgur.com'
+    'imgur.com',
+    'spotify.com'
 }
 
 

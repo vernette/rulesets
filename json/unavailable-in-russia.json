@@ -3,10 +3,6 @@
   "rules": [
     {
       "domain": [
-        "spotify.com",
-        "www.spotify.com",
-        "accounts.spotify.com",
-        "login.app.spotify.com",
         "geolocation.onetrust.com",
         "gemini.google.com",
         "lookerstudio.google.com",
