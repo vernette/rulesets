@@ -13,10 +13,11 @@ sing-box rule-sets for various services.
 - X (Twitter)
 - TikTok
 - Spotify
-- Telegram voice/video chats
+- Telegram (voice/video chats)
 - RKN (sites blocked by RKN)
 - Unavailable in Russia (sites that blocked users from Russia, automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts))
 - Roblox
+- WhatsApp (domains, voice/video chats)
 
 ## Example
 
