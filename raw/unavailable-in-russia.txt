@@ -29,7 +29,6 @@ anythingllm.com
 api.imgur.com
 apiary.io
 aplawrence.com
-apple.com
 atlassian.com
 atwiki.jp
 augmentcode.com
@@ -203,6 +202,7 @@ intel.se
 intellij.net
 intellipaat.com
 iperf3serverlist.net
+itunes.apple.com
 jabra.com
 jetbrains.ai
 jetbrains.com
