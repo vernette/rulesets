@@ -1,23 +1,24 @@
-sing-box rule-sets for various services.
+# sing-box rule-sets for various services
 
 ## Services
 
-- Discord (domains, voice chats)
-- Instagram
-- LinkedIn
-- Netflix
-- OpenAI (ChatGPT)
-- Copilot
-- Grok
-- YouTube
-- X (Twitter)
-- TikTok
-- Spotify
-- Telegram (voice/video chats)
-- RKN (sites blocked by RKN)
-- Unavailable in Russia (sites that blocked users from Russia, automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts))
-- Roblox
-- WhatsApp (domains, voice/video chats)
+| Service               | Description                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Discord               | Domains, voice subnets                                                                                                                      |
+| Instagram             | Domains                                                                                                                                     |
+| LinkedIn              | Domains                                                                                                                                     |
+| Netflix               | Domains                                                                                                                                     |
+| OpenAI                | Domains                                                                                                                                     |
+| Copilot               | Domains                                                                                                                                     |
+| Grok                  | Domains                                                                                                                                     |
+| YouTube               | Domains                                                                                                                                     |
+| X                     | Domains                                                                                                                                     |
+| TikTok                | Domains                                                                                                                                     |
+| Telegram              | Voice/video chat subnets                                                                                                                    |
+| RKN                   | Domains blocked in Russia                                                                                                                   |
+| Unavailable in Russia | Domains that block users from Russia. Automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts) |
+| Roblox                | Domains and game server subnets                                                                                                             |
+| WhatsApp              | Domains and voice/video chat subnets                                                                                                        |
 
 ## Example
 
