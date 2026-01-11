@@ -12,7 +12,8 @@
         "www3.corsair.com",
         "support.ts.fujitsu.com",
         "install.launcher.omniverse.nvidia.com",
-        "store.epicgames.com"
+        "store.epicgames.com",
+        "itunes.apple.com"
       ],
       "domain_suffix": [
         "2407.pl",
@@ -45,7 +46,6 @@
         "api.imgur.com",
         "apiary.io",
         "aplawrence.com",
-        "apple.com",
         "atlassian.com",
         "atwiki.jp",
         "augmentcode.com",
