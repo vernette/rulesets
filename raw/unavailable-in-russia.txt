@@ -137,6 +137,7 @@ fluke.com
 formula1.com
 fortiguard.com
 fortinet.com
+fosshub.com
 fotoforensics.com
 foxnews.com
 foxtrot.com.ua
@@ -218,6 +219,7 @@ kmail-lists.com
 kowalski7cc.xyz
 kroger.com
 langdock.com
+last.fm
 ldoceonline.com
 leica-geosystems.com
 lenso.ai
