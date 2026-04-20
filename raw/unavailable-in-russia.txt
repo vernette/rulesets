@@ -209,6 +209,7 @@ groupon.com
 grouponcdn.com
 guilded.gg
 habr.com
+hashflare.io
 hashicorp.com
 hashkey.com
 healthline.com
