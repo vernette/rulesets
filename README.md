@@ -19,6 +19,7 @@
 | Unavailable in Russia | Domains that block users from Russia. Automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts) |
 | Roblox                | Domains and game server subnets                                                                                                             |
 | WhatsApp              | Domains and voice/video chat subnets                                                                                                        |
+| Nintendo              | Domains                                                                                                                                     |
 
 ## Example
 

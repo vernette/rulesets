@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "d4c.nintendo.net",
+        "eshop.nintendo.net",
+        "srv.nintendo.net",
+        "dragons.nintendo.net"
+      ]
+    }
+  ]
+}
