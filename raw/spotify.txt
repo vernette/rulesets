@@ -1,1 +1,2 @@
-spotify.com
+accounts.spotify.com
+www.spotify.com

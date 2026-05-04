@@ -3,6 +3,7 @@
 4pda.to
 6pm.com
 8chan.moe
+accounts.spotify.com
 activestate.com
 acurapartswarehouse.com
 adafruit.com
@@ -688,6 +689,7 @@ wk.cz
 wonderclub.com
 wrs.com
 wunderground.com
+www.spotify.com
 www3.corsair.com
 x.ai
 xbox.com
