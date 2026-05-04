@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "gemini.google.com",
+        "generativelanguage.googleapis.com",
+        "aistudio.google.com",
+        "alkalimakersuite-pa.clients6.google.com",
+        "proactivebackend-pa.googleapis.com"
+      ]
+    }
+  ]
+}
