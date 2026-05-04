@@ -4,7 +4,7 @@
 
 | Service               | Description                                                                                                                                 |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Discord               | Domains, voice subnets                                                                                                                      |
+| Discord               | Domains and subnets                                                                                                                         |
 | Instagram             | Domains                                                                                                                                     |
 | LinkedIn              | Domains                                                                                                                                     |
 | Netflix               | Domains                                                                                                                                     |
@@ -14,11 +14,11 @@
 | YouTube               | Domains                                                                                                                                     |
 | X                     | Domains                                                                                                                                     |
 | TikTok                | Domains                                                                                                                                     |
-| Telegram              | Voice/video chat subnets                                                                                                                    |
+| Telegram              | Domains and subnets                                                                                                                         |
 | RKN                   | Domains blocked in Russia                                                                                                                   |
 | Unavailable in Russia | Domains that block users from Russia. Automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts) |
-| Roblox                | Domains and game server subnets                                                                                                             |
-| WhatsApp              | Domains and voice/video chat subnets                                                                                                        |
+| Roblox                | Domains and subnets                                                                                                                         |
+| WhatsApp              | Domains and subnets                                                                                                                         |
 | Nintendo              | Domains                                                                                                                                     |
 | Gemini                | Domains                                                                                                                                     |
 | Claude                | Domains                                                                                                                                     |
