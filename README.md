@@ -20,6 +20,8 @@
 | Roblox                | Domains and game server subnets                                                                                                             |
 | WhatsApp              | Domains and voice/video chat subnets                                                                                                        |
 | Nintendo              | Domains                                                                                                                                     |
+| Gemini                | Domains                                                                                                                                     |
+| Claude                | Domains                                                                                                                                     |
 
 ## Example
 
