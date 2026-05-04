@@ -4,7 +4,6 @@
     {
       "domain": [
         "geolocation.onetrust.com",
-        "gemini.google.com",
         "lookerstudio.google.com",
         "gaming.amazon.com",
         "eu.shop.battle.net",
@@ -203,6 +202,11 @@
         "gamestop.com",
         "gateway.pinata.cloud",
         "genspark.ai",
+        "gemini.google.com",
+        "generativelanguage.googleapis.com",
+        "aistudio.google.com",
+        "alkalimakersuite-pa.clients6.google.com",
+        "proactivebackend-pa.googleapis.com",
         "geospy.ai",
         "getsafeonline.org",
         "ghidra-sre.org",
