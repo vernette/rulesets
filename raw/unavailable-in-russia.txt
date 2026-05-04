@@ -13,8 +13,10 @@ agar.io
 ahrefs.com
 ai-chat.bsg.brave.com
 airbrake.io
+aistudio.google.com
 alberta.ca
 alienwarearena.com
+alkalimakersuite-pa.clients6.google.com
 all3dp.com
 alltrails.com
 alphacoders.com
@@ -187,6 +189,7 @@ gamestop.com
 gaming.amazon.com
 gateway.pinata.cloud
 gemini.google.com
+generativelanguage.googleapis.com
 genspark.ai
 geolocation.onetrust.com
 geospy.ai
@@ -519,6 +522,7 @@ pluralsight.com
 pny.com
 pornhub.com
 prh.com
+proactivebackend-pa.googleapis.com
 promods.net
 ptc.com
 pump.fun

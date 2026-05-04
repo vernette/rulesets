@@ -1,0 +1,5 @@
+aistudio.google.com
+alkalimakersuite-pa.clients6.google.com
+gemini.google.com
+generativelanguage.googleapis.com
+proactivebackend-pa.googleapis.com
