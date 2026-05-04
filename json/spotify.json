@@ -2,7 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": ["spotify.com"]
+      "domain_suffix": ["www.spotify.com", "accounts.spotify.com"]
     }
   ]
 }
