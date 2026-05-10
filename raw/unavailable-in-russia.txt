@@ -16,6 +16,7 @@ ai-chat.bsg.brave.com
 airbrake.io
 aistudio.google.com
 alberta.ca
+algolia.com
 alienwarearena.com
 alkalimakersuite-pa.clients6.google.com
 all3dp.com
