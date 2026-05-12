@@ -7,7 +7,8 @@
         "generativelanguage.googleapis.com",
         "aistudio.google.com",
         "alkalimakersuite-pa.clients6.google.com",
-        "proactivebackend-pa.googleapis.com"
+        "proactivebackend-pa.googleapis.com",
+        "robinfrontend-pa.googleapis.com"
       ]
     }
   ]
