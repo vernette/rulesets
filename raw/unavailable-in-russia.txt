@@ -34,6 +34,7 @@ ansys.com
 anthropic.com
 anythingllm.com
 api.imgur.com
+api.x.com
 apiary.io
 aplawrence.com
 atlassian.com
@@ -85,6 +86,7 @@ certifytheweb.com
 cesium.com
 chaos.com
 chatfuel.com
+chatgpt.com
 chipestimate.com
 cici.com
 cisco.com
@@ -161,6 +163,7 @@ extremetech.com
 familysearch.org
 fanatical.com
 fansub.com.br
+fast.com
 fastflux.ai
 fastspring.com
 fiercepc.co.uk
@@ -210,6 +213,7 @@ grammarly.com
 graylog.org
 grazie.ai
 grok.com
+grok.x.com
 groq.com
 groupon.com
 grouponcdn.com
@@ -467,9 +471,13 @@ myprepaidcenter.com
 myrotvorets.center
 nba.com
 ndi.tv
+netflix.com
 netscaler.com
 neuesbad.de
 newark.com
+nflxext.com
+nflximg.net
+nflxvideo.net
 ngrok.com
 nic.ua
 nordvpn.com
@@ -478,6 +486,8 @@ notion.so
 nsa.gov
 ntfsformac.tuxera.com
 nxp.com
+oaistatic.com
+oaiusercontent.com
 oasis.app
 oclc.org
 octopart-clicks.com
@@ -488,6 +498,7 @@ omnissa.com
 omv-extras.org
 onfastspring.com
 onshape.com
+openai.com
 openculture.com
 openh264.org
 oracle.com
