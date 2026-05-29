@@ -80,14 +80,13 @@ def is_domain_or_parent_exists(domain: str, existing_domains: set[str]) -> bool:
     return False
 
 
-def get_new_domain_suffixes(
-    no_russia_hosts: set[str], json_domains: set[str]
+def filter_new_domains(
+    candidates: set[str], existing: set[str], excluded: set[str] = frozenset()
 ) -> set[str]:
     return {
         domain
-        for domain in no_russia_hosts
-        if domain not in EXCLUDED_DOMAINS
-        and not is_domain_or_parent_exists(domain, json_domains)
+        for domain in candidates
+        if domain not in excluded and not is_domain_or_parent_exists(domain, existing)
     }
 
 
@@ -97,18 +96,19 @@ def update_domain_suffix_list(data: dict, new_domain_suffixes: set[str]) -> None
     domain_suffix_list.sort()
 
 
-def update_json(json_file: str, no_russia_hosts: set[str]) -> None:
+def sync_domains(json_file: str, no_russia_hosts: set[str]) -> None:
     json_domains: set[str] = get_json_domains(json_file)
-
-    new_from_dartraiden: set[str] = get_new_domain_suffixes(
-        no_russia_hosts, json_domains
+    new_from_dartraiden: set[str] = filter_new_domains(
+        no_russia_hosts,
+        json_domains,
+        EXCLUDED_DOMAINS,
     )
+
     service_domains: set[str] = get_service_domains(MERGED_SERVICE_FILES)
-    new_from_services: set[str] = {
-        domain
-        for domain in service_domains
-        if not is_domain_or_parent_exists(domain, json_domains)
-    }
+    new_from_services: set[str] = filter_new_domains(
+        service_domains,
+        json_domains,
+    )
 
     all_new: set[str] = new_from_dartraiden | new_from_services
 
@@ -124,13 +124,14 @@ def update_json(json_file: str, no_russia_hosts: set[str]) -> None:
         print(
             f"Added {len(new_from_dartraiden)} domains from dartraiden/no-russia-hosts"
         )
+
     if new_from_services:
         print(f"Added {len(new_from_services)} domains from service files")
 
 
 def main() -> None:
     no_russia_hosts: set[str] = get_no_russia_hosts(NO_RUSSIA_HOSTS_URL)
-    update_json(JSON_FILE_PATH, no_russia_hosts)
+    sync_domains(JSON_FILE_PATH, no_russia_hosts)
 
 
 if __name__ == "__main__":
