@@ -26,7 +26,7 @@ jobs:
           pip install requests
 
       - name: Run update script
-        run: python update_russia_unavailable.py
+        run: python sync_unavailable_in_russia.py
 
       - name: Commit and push if changes
         run: |

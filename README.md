@@ -16,7 +16,7 @@
 | TikTok                | Domains                                                                                                                                     |
 | Telegram              | Domains and subnets                                                                                                                         |
 | RKN                   | Domains blocked in Russia                                                                                                                   |
-| Unavailable in Russia | Domains that block users from Russia. Automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts) |
+| Unavailable in Russia | Domains that block users from Russia. Automatically synced with [dartraiden/no-russia-hosts](https://github.com/dartraiden/no-russia-hosts). Domains from Claude, OpenAI, Gemini, Grok and Netflix rulesets are also merged automatically. Copilot, Spotify and TikTok are intentionally excluded - not everyone needs them. |
 | Roblox                | Domains and subnets                                                                                                                         |
 | WhatsApp              | Domains and subnets                                                                                                                         |
 | Nintendo              | Domains                                                                                                                                     |
