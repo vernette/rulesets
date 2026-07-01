@@ -46,6 +46,7 @@ autodesk.net
 av-connection.com
 avcdn.net
 avid.com
+avira.com
 bacch.com
 beacon3d.com
 bestbuy.ca
@@ -59,6 +60,7 @@ blizzardwatch.com
 bluesky-soft.com
 blur.io
 boosteroid.com
+bosch-diy.com
 bosch-home.co.nz
 bosch-home.com
 bosch-home.com.sg
@@ -76,6 +78,7 @@ buymeacoffee.com
 cacti.net
 cadence.com
 cambiumnetworks.com
+camunda.io
 canva-apps.com
 canva.com
 capacitorjs.com
@@ -107,6 +110,7 @@ cohere.com
 comazo.de
 completeaccess.audio
 copernicus.eu
+coursera.com
 cpu-monkey.com
 crowdstrike.com
 crunchbase.com
@@ -149,6 +153,7 @@ e-katalog.com.ua
 e-katalog.ua
 easydmarc.com
 easyjet.com
+editmysite.com
 ek.ua
 elastic.co
 element14.com
@@ -166,9 +171,11 @@ fansub.com.br
 fast.com
 fastflux.ai
 fastspring.com
+fedex.com
 fiercepc.co.uk
 filehippo.com
 findagrave.com
+fireworks.ai
 flexpool.io
 flourish.studio
 fls.guru
@@ -203,6 +210,8 @@ getsafeonline.org
 ghidra-sre.org
 gitlab.com
 glpals.com
+gmplib.org
+gmu.edu
 gmv.com
 gofundme.com
 google.dev
@@ -243,6 +252,7 @@ imagecache365.com
 indeed.com
 infineon.com
 informit.com
+infosecinstitute.com
 insanelymac.com
 insideevs.com
 install.launcher.omniverse.nvidia.com
@@ -396,6 +406,7 @@ intel.wf
 intel.yt
 intellij.net
 intellipaat.com
+intuitibits.com
 iperf3serverlist.net
 itunes.apple.com
 jabra.com
@@ -404,6 +415,7 @@ jetbrains.com
 joesandbox.com
 joyreactor.cc
 jsfiddle.net
+justanswer.co.uk
 keepgrowing.in
 keepsolid.com
 kemono.su
@@ -458,6 +470,7 @@ microchip.com
 mikrocontroller.net
 militarnyi.com
 mint.com
+mistral.ai
 moneypuck.com
 mongodb.com
 mongodb.net
@@ -501,21 +514,26 @@ onshape.com
 openai.com
 openculture.com
 openh264.org
+opentext.com
 oracle.com
 oraclecloud.com
+otawa.fr
 ottg.app
 outflank.nl
 padi.com
 pandasecurity.com
+parallels.com
 paraswap.io
 parsec.app
 parts-express.com
 patreon.com
+patreonusercontent.com
 pcbway.com
 pcgamesn.com
 pcmag.com
 pcspecialist.co.uk
 pdfexpert.com
+pencil.dev
 penguinrandomhouse.com
 pepephone.com
 perforce.com
@@ -561,6 +579,7 @@ redis.io
 refinitiv.com
 reka.ai
 remove.bg
+replicate.com
 resp.app
 reverb.com
 ribbonsoft.com
@@ -601,7 +620,9 @@ smartbear.com
 snort.org
 snyk.io
 soapui.org
+socradar.io
 solarwinds.com
+solidstatelogic.com
 sophos.com
 sora.com
 spiceworks.com
@@ -627,6 +648,7 @@ support.ts.fujitsu.com
 swagger.io
 syncfusion.com
 synoforum.com
+synopsys.com
 sysdig.com
 systemtek.co.uk
 tableau.com
@@ -649,6 +671,7 @@ ti.com
 tidal.com
 timberland.com
 tmdb.org
+together.ai
 tommy.com
 tria.ge
 trionworlds.com
@@ -710,6 +733,7 @@ www.spotify.com
 www3.corsair.com
 x.ai
 xbox.com
+xdaforums.com
 xenserver.com
 xerox.com
 xfantazy.com
