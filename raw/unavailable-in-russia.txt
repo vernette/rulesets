@@ -24,6 +24,7 @@ alltrails.com
 alphacoders.com
 altaro.com
 amazfitwatchfaces.com
+amazon.com
 amd.com
 analog.com
 andrevi.ch
@@ -48,6 +49,7 @@ avcdn.net
 avid.com
 avira.com
 bacch.com
+battle.net
 beacon3d.com
 bestbuy.ca
 bestbuy.com
@@ -67,6 +69,7 @@ bosch-home.com.sg
 bosch-professional.com
 bosch.de
 bradyid.com
+brave.com
 brawlstarsgame.com
 bricklink.com
 brickset.com
@@ -110,6 +113,7 @@ cohere.com
 comazo.de
 completeaccess.audio
 copernicus.eu
+corsair.com
 coursera.com
 cpu-monkey.com
 crowdstrike.com
@@ -192,6 +196,7 @@ freediscussions.com
 freeimages.com
 freemyip.com
 freescale.com
+fujitsu.com
 furaffinity.net
 futurelearn.com
 g2a.com
@@ -498,6 +503,7 @@ norton.com
 notion.so
 nsa.gov
 ntfsformac.tuxera.com
+nvidia.com
 nxp.com
 oaistatic.com
 oaiusercontent.com
@@ -652,6 +658,7 @@ synopsys.com
 sysdig.com
 systemtek.co.uk
 tableau.com
+tailscale.com
 target.com
 te.com
 teamviewer.com
