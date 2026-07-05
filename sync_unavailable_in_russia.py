@@ -67,6 +67,9 @@ def is_domain_or_parent_exists(domain: str, existing_domains: set[str]) -> bool:
         return True
 
     for existing_domain in existing_domains:
+        if existing_domain.endswith("." + domain):
+            return True
+
         if domain.endswith("." + existing_domain):
             return True
 
@@ -85,8 +88,9 @@ def filter_new_domains(
 
 def update_domain_suffix_list(data: dict, new_domain_suffixes: set[str]) -> None:
     domain_suffix_list: list[str] = data["rules"][0]["domain_suffix"]
-    domain_suffix_list.extend(new_domain_suffixes)
-    domain_suffix_list.sort()
+    data["rules"][0]["domain_suffix"] = sorted(
+        set(domain_suffix_list) | new_domain_suffixes
+    )
 
 
 def sync_domains(json_file: str, no_russia_hosts: set[str]) -> None:
