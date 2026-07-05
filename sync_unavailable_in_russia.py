@@ -46,13 +46,11 @@ def save_json(json_file: str, data: dict) -> None:
 
 
 def get_no_russia_hosts(url: str) -> set[str]:
-    response = requests.get(url)
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
 
-    domains: set[str] = {
-        line for line in response.text.splitlines() if line and "#" not in line
-    }
-
-    return domains
+    lines = (line.strip() for line in response.text.splitlines())
+    return {line for line in lines if line and "#" not in line}
 
 
 def get_json_domains(json_file: str) -> set[str]:
@@ -74,7 +72,7 @@ def is_domain_or_parent_exists(domain: str, existing_domains: set[str]) -> bool:
         return True
 
     for existing_domain in existing_domains:
-        if existing_domain.endswith("." + domain):
+        if domain.endswith("." + existing_domain):
             return True
 
     return False
