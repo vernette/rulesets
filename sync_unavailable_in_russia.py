@@ -27,11 +27,11 @@ EXCLUDED_DOMAINS: set[str] = {
 }
 
 MERGED_SERVICE_FILES: list[str] = [
-    "claude.json",
-    "openai.json",
-    "gemini.json",
-    "grok.json",
-    "netflix.json",
+    f"{JSON_DIR}/claude.json",
+    f"{JSON_DIR}/openai.json",
+    f"{JSON_DIR}/gemini.json",
+    f"{JSON_DIR}/grok.json",
+    f"{JSON_DIR}/netflix.json",
 ]
 
 
@@ -53,15 +53,10 @@ def get_no_russia_hosts(url: str) -> set[str]:
     return {line for line in lines if line and "#" not in line}
 
 
-def get_json_domains(json_file: str) -> set[str]:
-    rules: dict = read_json(json_file)["rules"][0]
-    return set(rules["domain"]) | set(rules["domain_suffix"])
-
-
-def get_service_domains(filenames: list[str]) -> set[str]:
+def get_service_domains(json_files: list[str]) -> set[str]:
     domains: set[str] = set()
-    for filename in filenames:
-        rules = read_json(f"{JSON_DIR}/{filename}")["rules"][0]
+    for json_file in json_files:
+        rules = read_json(json_file)["rules"][0]
         domains |= set(rules.get("domain_suffix", []))
         domains |= set(rules.get("domain", []))
     return domains
@@ -95,7 +90,7 @@ def update_domain_suffix_list(data: dict, new_domain_suffixes: set[str]) -> None
 
 
 def sync_domains(json_file: str, no_russia_hosts: set[str]) -> None:
-    json_domains: set[str] = get_json_domains(json_file)
+    json_domains: set[str] = get_service_domains([json_file])
     new_from_dartraiden: set[str] = filter_new_domains(
         no_russia_hosts,
         json_domains,
