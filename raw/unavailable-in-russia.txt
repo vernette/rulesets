@@ -18,6 +18,7 @@ ahrefs.com
 ai-chat.bsg.brave.com
 airbrake.io
 aistudio.google.com
+akkadia.org
 alberta.ca
 algolia.com
 alienwarearena.com
@@ -130,6 +131,7 @@ codebrowser.dev
 cohere.com
 comazo.de
 completeaccess.audio
+coolserver-coolleo.com
 copernicus.eu
 corecode.io
 coreweave.com
@@ -173,6 +175,7 @@ dnb.com
 dogpile.com
 dola.com
 dolby.com
+drivesaversdatarecovery.com
 dyson.ae
 dyson.at
 dyson.be
@@ -238,6 +241,7 @@ elevenlabs.io
 elevenreader.io
 elgato.com
 elgiganten.se
+embedded.com
 eneba.com
 engagor.com
 enscape3d.com
@@ -513,6 +517,7 @@ kaleido.ai
 keepgrowing.in
 keepsolid.com
 kemono.su
+keysight.com
 klarna.com
 klaviyo.com
 kmail-lists.com
@@ -707,6 +712,7 @@ reverb.com
 ribbonsoft.com
 robinfrontend-pa.googleapis.com
 romsgames.net
+rose-hulman.edu
 ruckuswireless.com
 salesforce.com
 samsclub.com
@@ -721,6 +727,7 @@ se.com
 seagate.com
 securitytrails.com
 seekvectorlogo.net
+selinc.com
 semrush.com
 sendy.jp
 sentry.io
